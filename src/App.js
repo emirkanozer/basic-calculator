@@ -6,8 +6,8 @@ function App() {
       style={{
         width: "100vw",
         height: "100vh",
-        backgroundColor: "rgb(32,32,32)",
-        color: "#fff",
+        backgroundColor: "rgb(28,28,28)",
+        color: "#808080",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

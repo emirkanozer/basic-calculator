@@ -1,7 +1,14 @@
 import React from "react";
+import "./style.css";
 
 function Results() {
-  return <div style={{ width: "100%", height: "10vh" }}>Results</div>;
+  return (
+    <div className="result">
+      <div className="result-data">
+        <input type={"number"} />
+      </div>
+    </div>
+  );
 }
 
 export default Results;

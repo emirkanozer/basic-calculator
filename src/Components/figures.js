@@ -10,3 +10,5 @@ export const figures = [
   { number: 8 },
   { number: 9 },
 ];
+
+export const operators = [{ op: "+" }, { op: "-" }, { op: "*" }, { op: "/" }];

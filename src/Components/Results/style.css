@@ -1,0 +1,25 @@
+.result{
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    height: 10vh;
+}
+
+.result-data{
+    display: flex;
+    width: 25vw;
+    background-color: #424242;
+    border-radius: 1rem;
+}
+
+input{
+    color: #fff;
+    width: 100%;
+    border-radius: 1rem;
+    border: none;
+    text-align: end;
+    outline: none;
+    padding: 1rem;
+    font-size: 2em;
+    background-color: inherit;
+}

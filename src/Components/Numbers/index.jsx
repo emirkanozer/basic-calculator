@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { figures } from "../figures";
+import { figures, operators } from "../figures";
 import Results from "../Results";
 
 function Numbers() {
@@ -10,6 +10,11 @@ function Numbers() {
       <div className="numbers">
         {figures.reverse().map((figure) => {
           return <span className="number">{figure.number}</span>;
+        })}
+      </div>
+      <div className="numbers">
+        {operators.map((operator) => {
+          return <span className="number"> {operator.op} </span>;
         })}
       </div>
     </div>
